@@ -1,0 +1,26 @@
+{
+	"error": {
+		"unspecific": "Something went wrong.",
+		"404": "The page was not found."
+	},
+	"languageSettings": "Language",
+	"settings": "Settings",
+	"hello": "Home",
+	"account": {
+		"continueWithApple": "Continue with Apple",
+		"continueWithFacebook": "Continue with Facebook",
+		"continueWithGoogle": "Continue with Google",
+		"continueWithEmail": "Continue with Email",
+		"create": "Create Account",
+		"login": "Log In",
+		"email": "Email",
+		"name": "Name",
+		"password": "Password",
+		"confirmPassword": "Confirm Password",
+		"invalidEmail": "Invalid email address.",
+		"shortName": "Name is too short.",
+		"shortPassword": "Password is too short.",
+		"incorrectPassword": "Confirm password is incorrect.",
+		"usedEmail": "This email is already used."
+	}
+}
