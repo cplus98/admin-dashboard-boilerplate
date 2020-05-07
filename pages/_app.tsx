@@ -69,6 +69,8 @@ const AppContainer = ({ Component, pageProps }: any) => {
 				<style jsx global>
 					{`
 						body {
+							background: ${theme.backgroundColor};
+							color: ${theme.textColor};
 							margin: 0;
 							padding: 0;
 							font-family: 'Arial';
