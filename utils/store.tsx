@@ -8,7 +8,6 @@ export interface Resolvers {
 export interface StoreContextType {
 	store: any;
 	dispatch: (action: string, param?: any) => void;
-	mutate: (method: (state: object) => object) => void;
 }
 
 export interface StoreType {
