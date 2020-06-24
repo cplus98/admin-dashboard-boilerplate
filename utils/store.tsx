@@ -34,11 +34,7 @@ export const createStore = (resolvers: Resolvers, defaultValue: object) => {
 			dispatchReducer(resolvers[action](store, param));
 		};
 
-		const mutate = (method: (state: object) => object) => {
-			dispatchReducer(method(store));
-		};
-
-		return <StoreContext.Provider value={{ store, dispatch, mutate }}>{children}</StoreContext.Provider>;
+		return <StoreContext.Provider value={{ store, dispatch }}>{children}</StoreContext.Provider>;
 	};
 
 	return { StoreProvider, useStore };
